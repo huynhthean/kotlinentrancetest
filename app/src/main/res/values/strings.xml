@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Kotin Entrance Test</string>
+    <!--Common-->
+    <string name="app_name">Kotlin Entrance Test</string>
+    <string name="email_label">Your email</string>
+    <string name="password_label">Your password</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="done_button">Done</string>
+    <!--Sign up -->
+    <string name="sign_up_title">Let’s get you started!</string>
+    <string name="age_confirmation_label">I am over 16 years of age</string>
+    <string name="sign_up_terms_and_privacy_policy_label"><p>By clicking Sign Up, you are indicating that you have read and agree to the <a href="https://www.google.com.vn/">Terms of Service</a> and <a href="https://www.youtube.com/">Privacy Policy</a></p></string>
+    <string-array name="default_password_strength_levels">
+        <item>Too short</item>
+        <item>Weak</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Strong</item>
+    </string-array>
+    <string name="email_required_message">The email is required.</string>
+    <string name="email_invalid_message">The email is invalid.</string>
+    <string name="password_required_message">The password is required.</string>
+    <string name="password_length_message">The password must be between 6–18 characters.</string>
+    <!--Categories list-->
+    <string name="categories_list_title">Wellcome to Flutter Test</string>
+    <string name="categories_desc">Please select categories what you would like to see on your feed. You can set this later on Filter.</string>
 </resources>

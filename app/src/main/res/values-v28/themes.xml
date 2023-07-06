@@ -1,26 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.KotlinEntranceTest" parent="Theme.Material3.Dark.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <!-- Customize your theme here. -->
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowTranslucentStatus">true</item>
-    </style>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <style name="titleMediumTextStyle">
         <item name="android:fontFamily">@font/lato</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="fontWeight">500</item>
+        <item name="android:textFontWeight">500</item>
     </style>
 
     <style name="titleTextStyle">
@@ -28,6 +13,7 @@
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 
     <style name="titleSmallTextStyle">
@@ -35,13 +21,15 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/white_82</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 
     <style name="labelTextStyle">
-        <item name="android:textColorHint">@color/white_50</item>
+        <item name="android:textColorHint">@color/white</item>
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 
     <style name="editTextStyle">
@@ -49,6 +37,7 @@
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 
     <style name="checkboxStyle">
@@ -56,6 +45,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 
     <style name="buttonTextStyle">
@@ -64,5 +54,6 @@
         <item name="textAllCaps">false</item>
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
     </style>
 </resources>
