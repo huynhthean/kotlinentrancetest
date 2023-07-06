@@ -38,6 +38,7 @@
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
         <item name="android:textFontWeight">400</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
     </style>
 
     <style name="checkboxStyle">
@@ -46,6 +47,7 @@
         <item name="android:fontFamily">@font/lato</item>
         <item name="fontWeight">400</item>
         <item name="android:textFontWeight">400</item>
+        <item name="android:button">@drawable/ic_checkbox_drawable</item>
     </style>
 
     <style name="buttonTextStyle">

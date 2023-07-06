@@ -6,10 +6,9 @@ import android.util.Patterns
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
+import androidx.appcompat.content.res.AppCompatResources
 import com.nexlesoft.ket.R
 import com.nexlesoft.ket.data.api.Resource
-import com.nexlesoft.ket.data.model.SignUpResponse
 import com.nexlesoft.ket.databinding.ActivityMainBinding
 import com.nexlesoft.ket.ui.category.CategoryListActivity
 import com.nexlesoft.ket.utils.setWindowFullScreen
@@ -38,7 +37,6 @@ class MainActivity : AppCompatActivity() {
                 viewModel.createNewUser(email, password)
             }
         }
-
         viewModel.signUpResponse.observe(this) { result ->
             when (result) {
                 is Resource.Success -> {

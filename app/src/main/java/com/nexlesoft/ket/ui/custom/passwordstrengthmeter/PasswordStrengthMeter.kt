@@ -1,6 +1,7 @@
 package com.nexlesoft.ket.ui.custom.passwordstrengthmeter
 
 import android.content.Context
+import android.os.Build
 import android.text.Editable
 import android.text.InputFilter.LengthFilter
 import android.text.InputType
@@ -13,6 +14,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.nexlesoft.ket.R
@@ -84,6 +86,9 @@ class PasswordStrengthMeter : LinearLayout {
         textInputEditText.inputType =
             InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         textInputEditText.setTextAppearance(R.style.editTextStyle)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            textInputEditText.textCursorDrawable = getDrawable(context, R.drawable.color_cursor)
+        }
         textInputEditText.setBackgroundColor(resources.getColor(android.R.color.transparent))
         textInputEditText.setHint(R.string.password_label)
         textInputEditText.transformationMethod = AsteriskTransformationMethod()
